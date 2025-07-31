@@ -4,7 +4,7 @@ base-devel
 cachyos-gaming-applications
 cachyos-gaming-meta
 cachyos-settings
-vesktop
+discord
 downgrade
 easyeffects
 fastfetch
@@ -32,7 +32,7 @@ noto-fonts-cjk
 nvidia-open-dkms
 nvidia-utils
 openrgb-git
-paccache-hook #AUR
+paccache-hook #AUR, but prefer to be done manually
 pacman-contrib
 power-profiles-daemon
 proton-vpn-gtk-app
@@ -40,12 +40,11 @@ reflector
 ryujinx
 sddm
 sof-firmware
-spicetify-cli #AUR
 spotify-launcher
 starship
 ufw
 umu-launcher
-upscayl-bin #AUR
+upscayl-bin #AUR, but prefer flatpak
 wine
 wine-gecko
 wine-mono
