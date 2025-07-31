@@ -14,11 +14,9 @@ sassc
 slurp
 swappy
 kdialog
-qt6-avif-image-plugin 
-qt6-quicktimeline
 wtype
 ydotool
-quickshell #-git
+quickshell #AUR but prebuilt by CachyOS
 translate-shell
 
 #AUR
