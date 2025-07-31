@@ -1,0 +1,4 @@
+cava
+playerctl
+geoclue
+cliphist
