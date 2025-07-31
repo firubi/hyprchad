@@ -2,3 +2,35 @@ cava
 playerctl
 geoclue
 cliphist
+xdg-desktop-portal-hyprland
+xdg-desktop-portal-gtk
+hyprland
+hypridle
+hyprlock
+hyprpicker
+hyprsunset
+libportal-gtk4
+sassc
+slurp
+swappy
+kdialog
+qt6-avif-image-plugin 
+qt6-quicktimeline
+wtype
+ydotool
+quickshell #-git
+translate-shell
+
+#AUR
+bibata-modern-classic-bin
+darkly-bin
+kde-material-you-colors
+matugen-bin
+otf-space-grotesk
+ttf-gabarito-git
+ttf-jetbrains-mono-nerd
+ttf-material-symbols-variable-git
+ttf-readex-pro
+ttf-rubik-vf
+ttf-twemoji
+illogical-impulse-microtex-git #End4 points to /opt/MicroTex, but other than that they are the same as microtex-git
