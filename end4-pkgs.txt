@@ -20,17 +20,10 @@ ydotool
 quickshell #AUR but prebuilt by CachyOS
 translate-shell
 
-#AUR
-bibata-modern-classic-bin #Can be done by manually copying icons (no AUR needed), and update is probably never needed
+#Non-pacman
+bibata-modern-classic # Manual copy (https://github.com/ful1e5/Bibata_Cursor?tab=readme-ov-file#linux-x11wayland)
 darkly-bin #Can be manually copied, or installed through pacman -U for future updates. 
 kde-material-you-colors
 matugen-bin
-otf-space-grotesk
-ttf-gabarito-git
 ttf-jetbrains-mono-nerd (Can download and be placed in fonts folder manually)
-ttf-material-symbols-variable-git (Same, or you could try nodejs-material-design-icons)
-ttf-readex-pro
-ttf-rubik-vf
-ttf-twemoji
-
-Most fonts are optional
+ttf-material-symbols-variable-git (Same)
