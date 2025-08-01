@@ -31,6 +31,9 @@ XMODIFIERS=@im=fcitx
 ### Hyprland & Dolphin
 In order to fix the [weird MIME behaviour](https://bbs.archlinux.org/viewtopic.php?pid=2167579#p2167579) of dolphin in Hyprland, make a link in `/etc/xdg/menus` like this: `sudo ln -s /etc/xdg/menus/plasma-applications.menu /etc/xdg/menus/applications.menu`. 
 
+### ZRAM-generator in CachyOS-settings
+CachyOS-settings comes with zram-generator. If you followed the Arch Install Guide, you most likely already have a swap partition. Make a file `/etc/systemd/zram-generator.conf` and leave it empty (https://wiki.archlinux.org/title/Zram#Using_zram-generator). The service will be enabled automatically when the CachyOS-settings package is updated, so this is my preferred way. 
+
 ## Basic maintenance
 - `sudo pacman -Syu` - to update
 - `sudo pacman -Rns` - to remove package
