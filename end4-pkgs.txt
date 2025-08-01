@@ -1,3 +1,5 @@
+List of packages I found give all the functionality I need for End4's setup
+
 cava
 playerctl
 geoclue
@@ -10,7 +12,6 @@ hyprlock
 hyprpicker
 hyprsunset
 libportal-gtk4
-sassc
 slurp
 swappy
 kdialog
@@ -20,15 +21,16 @@ quickshell #AUR but prebuilt by CachyOS
 translate-shell
 
 #AUR
-bibata-modern-classic-bin
-darkly-bin
+bibata-modern-classic-bin #Can be done by manually copying icons (no AUR needed), and update is probably never needed
+darkly-bin #Can be manually copied, or installed through pacman -U for future updates. 
 kde-material-you-colors
 matugen-bin
 otf-space-grotesk
 ttf-gabarito-git
-ttf-jetbrains-mono-nerd
-ttf-material-symbols-variable-git
+ttf-jetbrains-mono-nerd (Can download and be placed in fonts folder manually)
+ttf-material-symbols-variable-git (Same, or you could try nodejs-material-design-icons)
 ttf-readex-pro
 ttf-rubik-vf
 ttf-twemoji
-illogical-impulse-microtex-git #End4 points to /opt/MicroTex, but other than that they are the same as microtex-git
+
+Most fonts are optional
