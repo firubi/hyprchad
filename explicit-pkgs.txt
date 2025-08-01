@@ -16,12 +16,10 @@ fish
 flatpak
 foot
 git
-linux
 linux-cachyos
 linux-cachyos-headers
 linux-firmware
 linux-firmware-whence
-linux-headers
 linux-lts
 linux-lts-headers
 lsfg-vk
@@ -49,7 +47,6 @@ wine-gecko
 wine-mono
 winetricks
 wl-clipboard
-xclip
 yay/paru #AUR-helper
 yt-dlp
 
