@@ -22,7 +22,7 @@ wget
 wtype
 ydotool
 translate-shell
-quickshell
+quickshell #Prebuilt by CachyOS
 
 #Non-pacman
 ttf-rubik-vf (Download source from AUR and copy to ~/.local/share/fonts)
