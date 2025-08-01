@@ -16,10 +16,6 @@ slurp
 swappy
 kdialog
 jq
-rsync
-meson
-wget
-wtype
 ydotool
 translate-shell
 quickshell #Prebuilt by CachyOS
