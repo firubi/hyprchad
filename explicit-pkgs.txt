@@ -56,17 +56,14 @@ yt-dlp
 # KDE-specific
 ark
 bluedevil
-bluez-qt
 breeze-gtk
 dolphin
 ffmpegthumbs
-gnome-disk-utility #Just a nice to have, blkid can be used instead to find UUID
 gwenview
 kate
 kde-gtk-config
 kdegraphics-thumbnailers
 kid3
-kinfocenter
 kscreen
 okular
 plasma-desktop
@@ -74,6 +71,5 @@ plasma-firewall
 plasma-nm
 plasma-pa
 plasma-systemmonitor
-plasma-x11-session
 spectacle
 unrar
