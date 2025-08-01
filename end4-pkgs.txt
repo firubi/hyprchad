@@ -15,6 +15,7 @@ libportal-gtk4
 slurp
 swappy
 kdialog
+jq
 wtype
 ydotool
 quickshell #AUR but prebuilt by CachyOS
