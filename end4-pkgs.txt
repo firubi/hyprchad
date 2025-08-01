@@ -16,16 +16,22 @@ slurp
 swappy
 kdialog
 jq
+rsync
 meson
+wget
 wtype
 ydotool
-quickshell #AUR but prebuilt by CachyOS
 translate-shell
+quickshell
 
 #Non-pacman
-bibata-modern-classic # Manual copy (https://github.com/ful1e5/Bibata_Cursor?tab=readme-ov-file#linux-x11wayland)
-darkly-bin #Can be manually copied, or installed through pacman -U for future updates. 
-kde-material-you-colors
+ttf-rubik-vf (Download source from AUR and copy to ~/.local/share/fonts)
+ttf-jetbrains-mono-nerd (Download source from AUR and copy to ~/.local/share/fonts)
+ttf-material-symbols-variable-git (Download source from AUR and copy to ~/.local/share/fonts)
+bibata-modern-classic (Download and copy to /usr/share/icons/ - https://github.com/ful1e5/Bibata_Cursor?tab=readme-ov-file#linux-x11wayland)
+darkly (Download and extract source, and copy: sudo cp -r usr/* /usr/, optionally install the dependencies for qt5)
+
+#AUR - through yay/paru
+kde-material-you-colors (AUR make dependecies: python-materialyoucolor & python-pywal16)
 matugen-bin
-ttf-jetbrains-mono-nerd (Can download and be placed in fonts folder manually)
-ttf-material-symbols-variable-git (Same)
+
