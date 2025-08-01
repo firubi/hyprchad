@@ -16,6 +16,7 @@ slurp
 swappy
 kdialog
 jq
+meson
 wtype
 ydotool
 quickshell #AUR but prebuilt by CachyOS
