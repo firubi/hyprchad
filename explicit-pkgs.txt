@@ -49,6 +49,8 @@ winetricks
 wl-clipboard
 yay/paru #AUR-helper
 yt-dlp
+qemu-base
+virt-manager
 
 # KDE-specific
 ark
