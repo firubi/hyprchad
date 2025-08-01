@@ -44,14 +44,13 @@ spotify-launcher
 starship
 ufw
 umu-launcher
-upscayl-bin #AUR, but prefer flatpak
 wine
 wine-gecko
 wine-mono
 winetricks
 wl-clipboard
 xclip
-yay #AUR-helper
+yay/paru #AUR-helper
 yt-dlp
 
 # KDE-specific
