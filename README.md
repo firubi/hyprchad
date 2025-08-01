@@ -16,3 +16,25 @@ Previously I used waybar, swaync and other packages when using Hyprland. Dotfile
 
 ## Further customizations
 The rest of this section will have customizations and tips specific to me but can also be useful to everyone else!
+
+### SDDM-Wayland
+https://wiki.archlinux.org/title/SDDM#Wayland, and apply Wayland-settings on SDDM in System-settings. This requires the package `sddm-kcm`.
+
+### Fcitx5
+Add in /etc/environment
+```
+GTK_IM_MODULE=fcitx
+QT_IM_MODULE=fcitx
+XMODIFIERS=@im=fcitx
+```
+
+### Hyprland & Dolphin
+In order to fix the [weird MIME behaviour](https://bbs.archlinux.org/viewtopic.php?pid=2167579#p2167579) of dolphin in Hyprland, make a link in `/etc/xdg/menus` like this: `sudo ln -s /etc/xdg/menus/plasma-applications.menu /etc/xdg/menus/applications.menu`. 
+
+## Basic maintenance
+- `sudo pacman -Syu` - to update
+- `sudo pacman -Rns` - to remove package
+- `pacman -Qq | wc -l` - to show package count
+- `sudo pacman -Rns $(pacman -Qdtq)` - to remove orphans (does also remove some make dependencies for AUR and tkg)
+- `paccache -r` - to remove previous versions of packages, but keep the latest 3
+- `paccache -ruk0` - to remove previous versions of uninstalled packages
