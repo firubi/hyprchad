@@ -62,7 +62,6 @@ Install the packages `virt-manager qemu-base`. Add to the fstab in the virtual m
 shared /home/firubi/Shared/ 9p defaults 0 0
 ```
 The driver on the filesystem needs to be virtio-9p with the target path `shared` and a source path of your choice, for example `/home/firubi/Public/`
-<br>
 </br>
 
 #### Drives
