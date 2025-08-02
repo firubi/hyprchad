@@ -71,7 +71,6 @@ To automount drives, you need to edit /etc/fstab:
 UUID=(UUID OF EXTERNAL SSD) /run/media/firubi/T7/ exfat nosuid,nodev,nofail,x-gvfs-show,uid=1000,gid=1000 0 0
 UUID=(UUID OF NVME) /run/media/firubi/NVME2/ ext4 defaults 0 0
 ```
-<br>
 </br>
 
 #### Hooks
@@ -95,7 +94,7 @@ Set the environment variables.
 LC_ALL = ja_JP.UTF-8
 TZ = Asia/Tokyo
 ```
-</br>
+
 ## Basic maintenance
 - `sudo pacman -Syu` - to update
 - `sudo pacman -Rns` - to remove package
