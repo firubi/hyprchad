@@ -44,7 +44,7 @@ shared /home/firubi/Shared/ 9p defaults 0 0
 The driver on the filesystem needs to be virtio-9p with the target path `shared` and a source path of your choice, for example `/home/firubi/Public/`
 
 #### Drives
-To automount drives, you need to edit /etc/fstab:
+To automount drives, you need to edit /etc/fstab. To find UUID, you can use `blkid`.
 ```
 UUID=(UUID OF EXTERNAL SSD) /run/media/firubi/T7/ exfat nosuid,nodev,nofail,x-gvfs-show,uid=1000,gid=1000 0 0
 UUID=(UUID OF NVME) /run/media/firubi/NVME2/ ext4 defaults 0 0
