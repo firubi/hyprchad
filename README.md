@@ -37,7 +37,7 @@ In order to fix the [weird MIME behaviour](https://bbs.archlinux.org/viewtopic.p
 CachyOS-settings comes with zram-generator. If you followed the Arch Install Guide, you most likely already have a swap partition. Make a file `/etc/systemd/zram-generator.conf` and leave it empty (https://wiki.archlinux.org/title/Zram#Using_zram-generator). The service will be enabled automatically when the CachyOS-settings package is updated, so this is my preferred way. 
 
 #### Virt-manager shared folder
-Install the packages `virt-manager qemu-base`. Add to the fstab in the virtual machine:
+Install the packages `virt-manager` and `qemu-base`. Add to the fstab in the virtual machine:
 ```
 shared /home/firubi/Shared/ 9p defaults 0 0
 ```
