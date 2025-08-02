@@ -18,7 +18,7 @@ Previously I used waybar, swaync and other packages when using Hyprland. Dotfile
 The rest of this section will have customizations and tips specific to me but can also be useful to everyone else!
 
 ### SDDM-Wayland
-https://wiki.archlinux.org/title/SDDM#Wayland, and apply Wayland-settings on SDDM in System-settings. This requires the package `sddm-kcm`.
+https://wiki.archlinux.org/title/SDDM#Wayland, and apply Wayland-settings on SDDM in System-settings. This requires the package `sddm-kcm`. If you want a clean looking theme, check out [Silent SDDM](https://github.com/uiriansan/SilentSDDM)!
 
 ### Fcitx5
 Add in /etc/environment
