@@ -1,0 +1,6 @@
+{
+    "device": "alsa_output.usb-Logitech_PRO_X_2_LIGHTSPEED_0000000000000000-00.analog-stereo",
+    "device-description": "PRO X 2 LIGHTSPEED Analog Stereo",
+    "device-profile": "analog-output",
+    "preset-name": "logitech"
+}

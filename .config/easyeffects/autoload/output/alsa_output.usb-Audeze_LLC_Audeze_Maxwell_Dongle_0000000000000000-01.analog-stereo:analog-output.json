@@ -1,0 +1,6 @@
+{
+    "device": "alsa_output.usb-Audeze_LLC_Audeze_Maxwell_Dongle_0000000000000000-01.analog-stereo",
+    "device-description": "Audeze Maxwell Dongle Analog Stereo",
+    "device-profile": "analog-output",
+    "preset-name": "maxwell"
+}
