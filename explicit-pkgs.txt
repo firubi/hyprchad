@@ -1,12 +1,14 @@
 amd-ucode
 base
 base-devel
+bat
 cachyos-gaming-applications
 cachyos-gaming-meta
 cachyos-settings
 discord
 downgrade
 easyeffects
+eza
 fastfetch
 fcitx5
 fcitx5-configtool
