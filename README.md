@@ -1,9 +1,12 @@
 # Hyprchad
 This serves to give steps to reproduce my Hyprland setup. For my old Hyprland setup (that barely utilizes the AUR), refer to this https://github.com/firubi/hyprland-gigachad.
 <br>
+</br>
+*This is the current setup*
+<img width="2560" height="1440" alt="Screenshot_2025-08-02_17 57 52" src="https://github.com/user-attachments/assets/5ba2bf7f-91df-414a-9f9e-e148042617a1" />
+
 <br>
 </br>
-
 ## Installing Arch
 For a simple Arch install, refer to https://github.com/firubi/gigachad-arch-installation, or just the wiki. Lately I have been adding the CachyOS repositories, which is useful for prebuilt packages. This can be done by following their [wiki](https://wiki.cachyos.org/features/optimized_repos/). Under explicit-pkgs.txt, you will find packages I usually install on Arch (and also KDE-specific packages if you want a fully functioning KDE-desktop).
 <br>
