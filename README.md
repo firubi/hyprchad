@@ -7,6 +7,7 @@ This serves to give steps to reproduce my Hyprland setup. For my old Hyprland se
 
 <br>
 </br>
+
 ## Installing Arch
 For a simple Arch install, refer to https://github.com/firubi/gigachad-arch-installation, or just the wiki. Lately I have been adding the CachyOS repositories, which is useful for prebuilt packages. This can be done by following their [wiki](https://wiki.cachyos.org/features/optimized_repos/). Under explicit-pkgs.txt, you will find packages I usually install on Arch (and also KDE-specific packages if you want a fully functioning KDE-desktop).
 <br>
