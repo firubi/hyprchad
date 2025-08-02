@@ -51,9 +51,22 @@ XMODIFIERS=@im=fcitx
 
 ### Hyprland & Dolphin
 In order to fix the [weird MIME behaviour](https://bbs.archlinux.org/viewtopic.php?pid=2167579#p2167579) of dolphin in Hyprland, make a link in `/etc/xdg/menus` like this: `sudo ln -s /etc/xdg/menus/plasma-applications.menu /etc/xdg/menus/applications.menu`. Either that, or you can put `env = XDG_MENU_PREFIX, plasma-` in env.conf. 
+<br>
+<br>
+</br>
 
 ### ZRAM-generator in CachyOS-settings
 CachyOS-settings comes with zram-generator. If you followed the Arch Install Guide, you most likely already have a swap partition. Make a file `/etc/systemd/zram-generator.conf` and leave it empty (https://wiki.archlinux.org/title/Zram#Using_zram-generator). The service will be enabled automatically when the CachyOS-settings package is updated, so this is my preferred way. 
+<br>
+<br>
+</br>
+
+#### Virt-manager shared folder
+Install the packages `virt-manager qemu-base`. Add to the fstab in the virtual machine:
+```
+shared /home/firubi/Shared/ 9p defaults 0 0
+```
+The driver on the filesystem needs to be virtio-9p with the target path `shared` and a source path of your choice, for example `/home/firubi/Public/`
 <br>
 <br>
 </br>
