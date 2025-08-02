@@ -1,22 +1,13 @@
 # Hyprchad
 This serves to give steps to reproduce my Hyprland setup. For my old Hyprland setup (that barely utilizes the AUR), refer to this https://github.com/firubi/hyprland-gigachad.
-<br>
-</br>
 *This is the current setup*
 <img width="2560" height="1440" alt="Screenshot_2025-08-02_17 57 52" src="https://github.com/user-attachments/assets/5ba2bf7f-91df-414a-9f9e-e148042617a1" />
 
-<br>
-</br>
-
 ## Installing Arch
 For a simple Arch install, refer to https://github.com/firubi/gigachad-arch-installation, or just the wiki. Lately I have been adding the CachyOS repositories, which is useful for prebuilt packages. This can be done by following their [wiki](https://wiki.cachyos.org/features/optimized_repos/). Under explicit-pkgs.txt, you will find packages I usually install on Arch (and also KDE-specific packages if you want a fully functioning KDE-desktop).
-<br>
-</br>
 
 ## Backup
 Before continuing, I recommend useful directories and files, such as .config and .local. That way, you can always go back to a default state. Something like `mkdir ~/.backup` and `cp -r ~/.config ~/.backup` and `cp -r ~/.local ~/.backup`
-<br>
-</br>
 
 ## Install Hyprland dotfiles
 Previously I used waybar, swaync and other packages when using Hyprland. Dotfiles from End4 takes use of Quickshell, and doesn't need separate packages for the bar, notifications or app-launcher. You could run the script, but I like doing it manually. It takes longer, but that way it makes it easier to uninstall. 
@@ -24,18 +15,12 @@ Previously I used waybar, swaync and other packages when using Hyprland. Dotfile
 - You will have to enable a few services, one for virtual keyboard and one for bluetooth: `systemctl --user enable --now ydotool` and `sudo systemctl enable --now bluetooth`. The script also adds the user to the video and input group, which you can do like this `sudo usermod -aG video,input "$(whoami)"`.
 - All you have to do now is place the dotfiles in .config and .local. I have edited some of the files to fit me, which you can download through this repository.
 - Before rebooting, you should enable sddm: `sudo systemctl enable sddm`.
-<br>
-</br>
 
 ## Further customizations
 The rest of this section will have customizations and tips specific to me but can also be useful to everyone else!
-<br>
-</br>
 
 #### SDDM-Wayland
 https://wiki.archlinux.org/title/SDDM#Wayland, and apply Wayland-settings on SDDM in System-settings. This requires the package `sddm-kcm`. If you want a clean looking theme, check out [Silent SDDM](https://github.com/uiriansan/SilentSDDM)!
-<br>
-</br>
 
 #### Fcitx5
 Add in /etc/environment
@@ -44,17 +29,12 @@ GTK_IM_MODULE=fcitx
 QT_IM_MODULE=fcitx
 XMODIFIERS=@im=fcitx
 ```
-</br>
 
 #### Hyprland & Dolphin
 In order to fix the [weird MIME behaviour](https://bbs.archlinux.org/viewtopic.php?pid=2167579#p2167579) of dolphin in Hyprland, make a link in `/etc/xdg/menus` like this: `sudo ln -s /etc/xdg/menus/plasma-applications.menu /etc/xdg/menus/applications.menu`. Either that, or you can put `env = XDG_MENU_PREFIX, plasma-` in env.conf. 
-<br>
-</br>
 
 #### ZRAM-generator in CachyOS-settings
 CachyOS-settings comes with zram-generator. If you followed the Arch Install Guide, you most likely already have a swap partition. Make a file `/etc/systemd/zram-generator.conf` and leave it empty (https://wiki.archlinux.org/title/Zram#Using_zram-generator). The service will be enabled automatically when the CachyOS-settings package is updated, so this is my preferred way. 
-<br>
-</br>
 
 #### Virt-manager shared folder
 Install the packages `virt-manager qemu-base`. Add to the fstab in the virtual machine:
@@ -62,7 +42,6 @@ Install the packages `virt-manager qemu-base`. Add to the fstab in the virtual m
 shared /home/firubi/Shared/ 9p defaults 0 0
 ```
 The driver on the filesystem needs to be virtio-9p with the target path `shared` and a source path of your choice, for example `/home/firubi/Public/`
-</br>
 
 #### Drives
 To automount drives, you need to edit /etc/fstab:
@@ -70,17 +49,12 @@ To automount drives, you need to edit /etc/fstab:
 UUID=(UUID OF EXTERNAL SSD) /run/media/firubi/T7/ exfat nosuid,nodev,nofail,x-gvfs-show,uid=1000,gid=1000 0 0
 UUID=(UUID OF NVME) /run/media/firubi/NVME2/ ext4 defaults 0 0
 ```
-</br>
 
 #### Hooks
 Useful pacman hooks I use are [paccache-hook](https://aur.archlinux.org/packages/paccache-hook) and [systemd-boot-autoupdate](https://wiki.archlinux.org/title/Systemd-boot#pacman_hook).
-<br>
-</br>
 
 #### Yomitan/-chan local audio server
 Set up a local audio server with Anki with this tutorial: https://github.com/themoeway/local-audio-yomichan.
-<br>
-</br>
 
 #### Adding Japanese locale in flatpak
 For when you want to run Japanese games/applications through Bottles or such. No need to change the system locales. 
