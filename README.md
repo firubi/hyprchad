@@ -1,5 +1,6 @@
 # Hyprchad
 This serves to give steps to reproduce my Hyprland setup. For my old Hyprland setup (that barely utilizes the AUR), refer to this https://github.com/firubi/hyprland-gigachad.
+<br>
 </br>
 *This is the current setup*
 <img width="2560" height="1440" alt="Screenshot_2025-08-02_17 57 52" src="https://github.com/user-attachments/assets/5ba2bf7f-91df-414a-9f9e-e148042617a1" />
