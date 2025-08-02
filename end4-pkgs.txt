@@ -1,5 +1,6 @@
 List of packages I found give all the functionality I need for End4's setup
 
+adw-gtk-theme
 cava
 playerctl
 geoclue
@@ -12,6 +13,7 @@ hyprlock
 hyprpicker
 hyprsunset
 libportal-gtk4
+grim
 slurp
 swappy
 kdialog
