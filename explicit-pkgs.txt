@@ -15,6 +15,7 @@ firefox
 fish
 flatpak
 foot
+fuse2
 git
 linux-cachyos
 linux-cachyos-headers
