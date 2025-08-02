@@ -32,12 +32,12 @@ The rest of this section will have customizations and tips specific to me but ca
 <br>
 </br>
 
-### SDDM-Wayland
+#### SDDM-Wayland
 https://wiki.archlinux.org/title/SDDM#Wayland, and apply Wayland-settings on SDDM in System-settings. This requires the package `sddm-kcm`. If you want a clean looking theme, check out [Silent SDDM](https://github.com/uiriansan/SilentSDDM)!
 <br>
 </br>
 
-### Fcitx5
+#### Fcitx5
 Add in /etc/environment
 ```
 GTK_IM_MODULE=fcitx
@@ -46,12 +46,12 @@ XMODIFIERS=@im=fcitx
 ```
 </br>
 
-### Hyprland & Dolphin
+#### Hyprland & Dolphin
 In order to fix the [weird MIME behaviour](https://bbs.archlinux.org/viewtopic.php?pid=2167579#p2167579) of dolphin in Hyprland, make a link in `/etc/xdg/menus` like this: `sudo ln -s /etc/xdg/menus/plasma-applications.menu /etc/xdg/menus/applications.menu`. Either that, or you can put `env = XDG_MENU_PREFIX, plasma-` in env.conf. 
 <br>
 </br>
 
-### ZRAM-generator in CachyOS-settings
+#### ZRAM-generator in CachyOS-settings
 CachyOS-settings comes with zram-generator. If you followed the Arch Install Guide, you most likely already have a swap partition. Make a file `/etc/systemd/zram-generator.conf` and leave it empty (https://wiki.archlinux.org/title/Zram#Using_zram-generator). The service will be enabled automatically when the CachyOS-settings package is updated, so this is my preferred way. 
 <br>
 </br>
@@ -74,6 +74,28 @@ UUID=(UUID OF NVME) /run/media/firubi/NVME2/ ext4 defaults 0 0
 <br>
 </br>
 
+#### Hooks
+Useful pacman hooks I use are [paccache-hook](https://aur.archlinux.org/packages/paccache-hook) and [systemd-boot-autoupdate](https://wiki.archlinux.org/title/Systemd-boot#pacman_hook).
+<br>
+</br>
+
+#### Yomitan/-chan local audio server
+Set up a local audio server with Anki with this tutorial: https://github.com/themoeway/local-audio-yomichan.
+<br>
+</br>
+
+#### Adding Japanese locale in flatpak
+For when you want to run Japanese games/applications through Bottles or such. No need to change the system locales. 
+```
+flatpak config --set extra-languages ja_JP.UTF-8
+flatpak update
+```
+Set the environment variables.
+```
+LC_ALL = ja_JP.UTF-8
+TZ = Asia/Tokyo
+```
+</br>
 ## Basic maintenance
 - `sudo pacman -Syu` - to update
 - `sudo pacman -Rns` - to remove package
