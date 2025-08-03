@@ -1,7 +1,6 @@
 amd-ucode
 base
 base-devel
-bat
 discord
 downgrade
 easyeffects
@@ -28,24 +27,18 @@ noto-fonts-cjk
 nvidia-open-dkms
 nvidia-utils
 openrgb-git
-paccache-hook #AUR, but prefer to be done manually
 pacman-contrib
-proton-vpn-gtk-app
 reflector
 ryujinx
 sddm
-sof-firmware
 spotify-launcher
 starship
-ufw
-wine
-wine-gecko
-wine-mono
+steam
 wl-clipboard
-yay/paru #AUR-helper
 yt-dlp
 qemu-base
 virt-manager
+yay/paru #AUR-helper
 
 # KDE-specific
 ark
