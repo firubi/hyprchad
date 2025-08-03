@@ -58,6 +58,9 @@ Useful pacman hooks I use are [paccache-hook](https://aur.archlinux.org/packages
 #### Yomitan/-chan local audio server
 Set up a local audio server with Anki with this tutorial: https://github.com/themoeway/local-audio-yomichan.
 
+### Flatpaks I use
+`flatpak install flathub com.github.tchx84.Flatseal com.obsproject.Studio com.usebottles.bottles com.vysp3r.ProtonPlus info.cemu.Cemu io.github.xiaoyifang.goldendict_ng it.mijorus.gearlever org.azahar_emu.Azahar org.fooyin.fooyin org.gimp.GIMP org.kde.kdenlive org.keepassxc.KeePassXC org.libreoffice.LibreOffice org.prismlauncher.PrismLauncher org.qbittorrent.qBittorrent org.upscayl.Upscayl org.vinegarhq.Sober org.yuzu_emu.yuzu`
+
 #### Adding Japanese locale in flatpak
 For when you want to run Japanese games/applications through Bottles or such. No need to change the system locales. 
 ```
