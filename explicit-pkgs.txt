@@ -14,6 +14,7 @@ flatpak
 foot
 fuse2
 git
+imv
 linux-cachyos
 linux-cachyos-headers
 linux-firmware
@@ -40,6 +41,7 @@ yt-dlp
 qemu-base
 virt-manager
 yay/paru #AUR-helper
+zathura
 
 # KDE-specific
 ark
