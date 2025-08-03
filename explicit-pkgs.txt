@@ -38,7 +38,6 @@ sof-firmware
 spotify-launcher
 starship
 ufw
-umu-launcher
 wine
 wine-gecko
 wine-mono
