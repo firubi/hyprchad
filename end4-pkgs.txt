@@ -12,7 +12,6 @@ hypridle
 hyprlock
 hyprpicker
 hyprsunset
-libportal-gtk4
 grim
 slurp
 swappy
