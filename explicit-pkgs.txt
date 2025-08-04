@@ -2,7 +2,6 @@ amd-ucode
 base
 base-devel
 discord
-downgrade
 easyeffects
 fastfetch
 fcitx5
@@ -43,10 +42,11 @@ virt-manager
 yay/paru #AUR-helper
 zathura
 
+#Tips on cachyos-repositories, you only need linux-cachyos, linux-cachyos-headers and linux-cachyos-nvidia-open. You dont need nvidia-open-dkms which is quite large.
+
 # KDE-specific
 ark
 bluedevil
-breeze-gtk
 dolphin
 ffmpegthumbs
 kate
