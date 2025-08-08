@@ -35,6 +35,8 @@ XMODIFIERS=@im=fcitx
 #### Hyprland & Dolphin
 In order to fix the [weird MIME behaviour](https://bbs.archlinux.org/viewtopic.php?pid=2167579#p2167579) of dolphin in Hyprland, make a link in `/etc/xdg/menus` like this: `sudo ln -s /etc/xdg/menus/plasma-applications.menu /etc/xdg/menus/applications.menu`. Either that, or you can put `env = XDG_MENU_PREFIX, plasma-` in env.conf. 
 
+#### KDE Connct
+In order to use, follow this wiki: https://wiki.archlinux.org/title/KDE#KDE_Connect. If using ufw, you need to open the port these specific ports, which can be done like this: `sudo ufw allow 1714:1764/tcp` and `sudo ufw allow 1714:1764/udp`. The package `sshfs` is needed to access the filesystem of your phone. 
 #### Virt-manager shared folder
 Install the packages `virt-manager` and `qemu-base`. Add to the fstab in the virtual machine:
 ```
